@@ -9,12 +9,19 @@
 
     <!-- bootstrap -->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          crossorigin="anonymous">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+          crossorigin="anonymous">
 
     <!-- font-awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <title>prestonaronson.com</title>
 </head>
@@ -29,7 +36,36 @@
             <div class="navbar">
                 <ul class="nav nav-justified" id="myNav">
                     <li class="li"><a href="#"><h3>Resume</h3></a></li>
-                    <li class="li"><a href="#"><h3>Projects</h3></a></li>
+                    <li class="dropdown">
+                        <a href="#"
+                           class="dropdown-toggle"
+                           data-toggle="dropdown"
+                           role="button"
+                           aria-haspopup="true"
+                           aria-expanded="false">
+                            <h3>
+                                Projects
+                                <span class="caret"></span>
+                            </h3>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="http://ec2-52-25-167-178.us-west-2.compute.amazonaws.com:8080/SDQuizProject/">
+                                    url: Quiz Application
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/pparonson/cashRegisterProject">
+                                    src: Personal Register
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/pparonson/SD2Registry">
+                                    src: Wishlist Registry
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -39,15 +75,39 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        <i class="fa fa-code"></i>
-                        Technical Skills
+                        <i class="fa fa-coffee"></i>
+                        Background Summary
                     </h4>
                 </div>
                 <div class="panel-body">
-                    Panel content
+                    <div class="row">
+                    	<div class="col-xs-12">
+                        	<div class="well">
+                              
+
+                          	</div>
+                       	</div>
+					</div>
                 </div>
             </div>
         </div><!-- /.col-sm-8 -->
+
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <i class="fa fa-user"></i>
+                        Contact
+                    </h4>
+                </div>
+                <div class="panel-body">
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        (720) 275 - 6934
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.col-sm-4 -->
 
         <div class="col-sm-4">
             <div class="panel panel-default">
@@ -59,16 +119,25 @@
                 </div>
                 <div class="panel-body">
                     <div>
+                        <a href="images/prestonAronson_2015_resume.pages.pdf alias">
+                            <i class="fa fa-file"></i> Detailed Resume
+                        </a>
+                    </div>
+                    <div>
+                        <a href="images/general_coverLetter.pages.pdf alias">
+                            <i class="fa fa-file"></i> Cover Letter
+                        </a>
+                    </div>
+                    <div>
                         <a href="http://www.linkedin.com/in/pparonson">
                             <i class="fa fa-linkedin"></i> LinkedIn
                         </a>
                     </div>
                     <div>
                         <a href="https://github.com/pparonson">
-                            <i class="fa fa-github-square"></i></i> GitHub
+                            <i class="fa fa-github-square"></i> GitHub
                         </a>
                     </div>
-                    </p>
                 </div>
             </div>
         </div><!-- /.col-sm-4 -->
@@ -77,12 +146,58 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        <i class="fa fa-university"></i>
+                        <i class="fa fa-graduation-cap"></i>
                         Education
                     </h4>
                 </div>
                 <div class="panel-body">
-                    Panel content
+                    <div class="row">
+                    	<div class="col-xs-12">
+
+                            <div class="well">
+                                <p>
+                                    <h5>Skill Distillery — Full Stack Developer Training Program</h5>
+                                    <ul>
+                                      <li>19 week intensive course providing training in Java, Javascript, Spring, JPA, Hibernate and modern front-end technologies like jQuery and Knockout.js</li>
+                                      <li>Classroom hours plus additional study and projects with emphasis on Java and Javascript technologies.</li>
+                                    </ul>
+                                </p>
+                            </div>
+
+                        	<div class="well">
+                                <p>
+                                    <h5>Palmer College of Chiropractic West</h5>
+                                    <ul>
+                                      <li>Doctorate of Chiropractic Medicine</li>
+                                      <li>Cum Laude graduate honors</li>
+                                      <li>Dean’s Honors List</li>
+                                    </ul>
+                                </p>
+                            </div>
+
+                            <div class="well">
+                                <p>
+                                    <h5>University of Hawaii at Hilo</h5>
+                                    <ul>
+                                      <li>Bachelor of Arts Biology</li>
+                                      <li>Dean’s Honors List</li>
+                                      <li>Full Athletic Scholarship</li>
+                                    </ul>
+                                </p>
+                            </div>
+
+                            <div class="well">
+                                <p>
+                                    <h5>Western State College</h5>
+                                    <ul>
+                                      <li>Dean’s Honors List</li>
+                                      <li>Full Athletic and Academic Scholarship</li>
+                                    </ul>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div><!-- /.col-sm-8 -->
@@ -91,11 +206,50 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        Panel Title
+                        <i class="fa fa-code"></i>
+                        Technical Skills
                     </h4>
                 </div>
                 <div class="panel-body">
-                    Panel Content
+                    <div class="row">
+                    	<div class="col-xs-6">
+                        	<div class="well">
+                              <ul>
+                                <li>Java</li>
+                                <li>Javascript</li>
+                                <li>Clojure</li>
+                                <li>Clojurescript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Spring</li>
+                                <li>Spring MVC</li>
+                                <li>JPA Persistence</li>
+                                <li>Hibernate</li>
+                                <li>REST Services</li>
+                              </ul>
+                          	</div>
+                       	</div>
+
+                        <div class="col-xs-6">
+                        	<div class="well">
+                              <ul>
+                                <li>Node JS</li>
+                                <li>Express JS</li>
+                                <li>AJAX</li>
+                                <li>JSON</li>
+                                <li>Require JS</li>
+                                <li>Knockout JS</li>
+                                <li>Bootstrap</li>
+                                <li>jQuery</li>
+                                <li>jQPlot</li>
+                                <li>Git Version</li>
+                                <li>Linux</li>
+                                <li>Agile Development</li>
+                                <li>Design Patterns</li>
+                              </ul>
+                          	</div>
+                       	</div>
+					</div>
                 </div>
             </div>
         </div><!-- /.col-sm-4 -->
@@ -109,7 +263,50 @@
                     </h4>
                 </div>
                 <div class="panel-body">
-                    Panel content
+                    <div class="row">
+                    	<div class="col-xs-12">
+                        	<div class="well">
+                                <p>
+                                    <h5>Preston Aronson, DC, LLC —Founded 2012 - 2015</h5>
+                                    <div>
+                                        Managed all business operations,
+                                        treatment services, billing, and marketing for 2 office locations.
+                                        Increased profitability from startup to $96,000 annual gross revenue in 3 years.
+                                    </div>
+                                </p>
+                            </div>
+
+                            <div class="well">
+                                <p>
+                                    <h5>Concentra Utilization Peer Review Panel — 2012 - 2015</h5>
+                                    <div>
+                                        Provided complex chart and disability professional peer-reviews in accordance with state-mandated requirements.
+                                    </div>
+                                </p>
+                            </div>
+
+                            <div class="well">
+                                <p>
+                                    <h5>Mountain Medical Care, LLC — 2010 - 2015</h5>
+                                    <div>
+                                        Promoted to primary preferred provider for MMC services.
+                                        Authored and rendered expert medical-legal opinions for complex cases.
+                                        Assisted business networking and marketing efforts to allied providers and attorneys.
+                                    </div>
+                                </p>
+                            </div>
+
+                            <div class="well">
+                                <p>
+                                    <h5>MSK Medical, LLC — 2013 - 2015</h5>
+                                    <div>
+                                        Generated over $180,000 in account receivables for the recently opened Denver location.
+                                    </div>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div><!-- /.col-sm-8 -->
@@ -123,7 +320,21 @@
                     </h4>
                 </div>
                 <div class="panel-body">
-                    Panel content
+                    <div class="row">
+                    	<div class="col-xs-12">
+
+                            <div class="well">
+                                <p>
+                                    <h5>Skill Distillery — Full Stack Developer Training Program</h5>
+                                    <ul>
+                                      <li>NCAA Academic and Athletic All-American and National Champions</li>
+                                      <li>Athletic Hall of Fame Sheridan High and Western State (Track & Field / Cross-Country)</li>
+                                      <li>Pi Tau Delta Chiropractic Honor Society Honorary</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div><!-- /.col-sm-8 -->
