@@ -10,6 +10,12 @@ li {
     list-style-type: none;
 }
 
+/*.panel-primary > .panel-heading {
+    background-image: none;
+    background-color: red;
+    color: white;
+}*/
+
 #navbar {
     width: 50%;
 }
